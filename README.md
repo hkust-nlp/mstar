@@ -10,7 +10,7 @@
 
 <p align="center">
   :hugs: <a href="https://huggingface.co/collections/hkust-nlp/m-star-676bbf9f749dbf511e7c4a32">HF Repo</a>&nbsp;&nbsp;&nbsp;
-  :page_with_curl: <a href="...">Paper</a>
+  :page_with_curl: <a href="https://arxiv.org/abs/2412.17451">Paper</a>
 </p>
 
 Welcome to M-STAR (**M**ultimodal **S**elf-Evolving **T**r**A**ining for **R**easoning) Project! 
