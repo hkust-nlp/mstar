@@ -1,7 +1,7 @@
 # M-STAR
 
 <p align="center">
-  <img src="./assets/mstar-logo.png" width="500">
+  <img src="./assets/mstar-logo.png" width="300">
 </p>
 
 <p align="center">
