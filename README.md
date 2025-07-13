@@ -20,17 +20,6 @@ This is the **preview version** of M-STAR. We will continue to update, please st
 ## What is M-STAR :star:?
 M-STAR is a framework to improve the **Multimodal Reasoning** ability of Large Multimodal Models (LMMs) via **Self-Evolving Training**.
 
-Unlike traditional **Self-Evolving Training**, M-STAR supports **Large Multimodal Models**, **Training with Multimodal Process Reward Models (MPRM)**, and **Adaptive Explorations during Training**.
-
-M-STAR includes:
-
-- **M-STAR Framework**: A framework for Self-Evolving Training of LMMs including **Generation**, **Training**, and **Rewarding**. With M-STAR, we can:
-  - Efficiently generate diverse responses for a given query using [lmdeploy](https://github.com/InternLM/lmdeploy)
-  - Generate data to train Multimodal Process Reward Models (MPRM)
-  - Train MPRM to assess multimodal reasoning
-  - Perform **Self-Evolving Training** of LMMs to enhance multimodal reasoning ability
-  - Monitor training dynamics and adaptively adjust exploration (e.g., temperature) during training
-
 - **M-STAR Resources**:
 
     | **Component**                |**Description**                                                                                                     |
@@ -39,10 +28,6 @@ M-STAR includes:
     | **M-STAR PRM**                | A Multimodal Process Reward Model (MPRM) that evaluates the quality of multimodal reasoning data at the step level.  |
     | **M-STAR CoT Dataset**        | A collection of 100K generated multimodal reasoning data with CoT, where the queries are sourced from [MathV360K](https://huggingface.co/datasets/Zhiqiang007/MathV360K).                      |
     | **M-STAR MPRM Training Dataset** | A set of 50K multimodal reasoning data designed for training MPRM.                                             |
-
-## News
-
-- :fire: [12/2024] We are excited to release the preview version of M-STAR! In this release, all **M-STAR Resources** are available, and the components for **Generation** and **Training of MPRM** are coming soon. To enhance the user experience, we are currently refining the code for the entire **M-STAR Framework**, which will be available after the release of **Generation** and **Training of MPRM**!
 
 ## Performance
 
@@ -114,18 +99,6 @@ Evaluating the effectiveness of adaptively adjusting exploration:
 | M-STAR-8B-v1.0                |  [Link](https://huggingface.co/hkust-nlp/mstar-8b-v1.0)         | [MiniCPM Model License](https://github.com/OpenBMB/MiniCPM/blob/main/MiniCPM%20Model%20License.md)             |
 | M-STAR-PRM-8B-v1.0               |  [Link](https://huggingface.co/hkust-nlp/mstar-prm-8b-v1.0)      | [MiniCPM Model License](https://github.com/OpenBMB/MiniCPM/blob/main/MiniCPM%20Model%20License.md)             |
 </div>
-
-## :running_man: How to start?
-
-- [ ] We are cleaning up the code and will release it soon.
-
-## :muscle: What's more?
-
-This is the preview version of M-STAR project. We will continue to update including
-
-- [ ] Generation
-- [ ] Training of MPRM
-- [ ] Self-Evolving Training Pipeline
 
 ## Citation
 If you find the content of this project helpful, please cite our paper as follows:
